@@ -24,14 +24,14 @@ pip install -r requirements.txt
 
 ## Usage
 
-There are a total of 4 files that can be executed:
+There are a total of 4 scripts that can be executed:
 
-- `internet_tester.py` - tests the latency, download, and upload speeds of the internet connection across _n_ trials, saves the results in `internet-test-results.csv`, and saves a plot of the graph showing the results to `/images/internet`,
+- `internet_tester.py` – tests the latency, download, and upload speeds of the internet connection across _n_ trials, saves the results, and plots them to `/images/internet`,
 
-- `plot_all_internet_results.py` - saves a plot of the graph showing all results recorded within `internet-test-results.csv` to `/images/internet-overall`,
+- `plot_all_internet_results.py` – plots a graph showing all internet performance results to `/images/internet-overall`,
 
-- `ping_tester.py` - tests the latency of the internet connection across _m_ trials, saves the results in `ping-test-results.csv`, and saves a plot of the graph showing the results to `/images/ping`, and
+- `ping_tester.py` – tests the latency of the internet connection across _m_ trials, saves the results, and plots them to `/images/ping`, and
 
-- `plot_all_ping_results.py` - saves a plot of the graph showing all results recorded within `ping-test-results.csv` to `/images/ping-overall`.
+- `plot_all_ping_results.py` – plots a graph showing all ping performance results to `/images/ping-overall`.
 
 Values _n_ and _m_ can be modified within `config.py` through variables `INTERNET_TRIALS` and `PING_TRIALS` respectively.
