@@ -1,4 +1,4 @@
-# Internet Tester
+# Internet Tester 🌐
 
 A simple program designed to measure the performance of the current computer's internet connection using Ookla's [Speedtest CLI](https://www.speedtest.net/apps/cli).
 
