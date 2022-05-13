@@ -1,12 +1,13 @@
 import speedtest
 from datetime import datetime
+from config import INTERNET_TRIALS
 from helpers import get_results, write_internet_results_to_file, plot_results
 
 def main():
     s = speedtest.Speedtest()
     ping_list, download_list, upload_list, timestamp_list = [], [], [], []
 
-    for i in range(5):
+    for i in range(INTERNET_TRIALS):
         results = get_results(s)
 
         ping_list.append(results[0])

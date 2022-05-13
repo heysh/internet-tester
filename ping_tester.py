@@ -1,5 +1,6 @@
 import speedtest
 from datetime import datetime
+from config import PING_TRIALS
 from helpers import get_results, write_ping_result_to_file, plot_results
 
 def main():
@@ -7,7 +8,7 @@ def main():
     ping_list = []
     timestamp_list = []
 
-    for i in range(50):
+    for i in range(PING_TRIALS):
         ping = get_results(s, internet=False)
         ping_list.append(ping)
 
