@@ -10,7 +10,7 @@ The internet connection can be measured and visualised in two separate component
 
 ## Motivation
 
-Primarily, this has been inspired through experiencing an unstable ping during gaming. Whilst the game servers also trouble my friends' ping values, there are times where I am the only one affected by the issue. Hence, I determined that the cause of the problem was either the game servers, or my internet connection.
+Primarily, this has been inspired through experiencing an unstable ping during gaming. Whilst the game servers would also trouble my friends' ping values, there were times where I would be the only one affected by the issue. Hence, I determined that the cause of the problem was either the game servers, or my internet connection.
 
 Even though I didn't experience any hiccups or issues regarding my internet connection in other aspects of my internet usage, I was pretty confident that it was the culprit. Through the development and application of this program, I was able to measure and visualise my internet connection's latency at different times of the day and conclude that the issue originated from my internet connection.
 
