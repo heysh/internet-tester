@@ -38,25 +38,33 @@ Values _n_ and _m_ can be modified within `config.py` through variables `INTERNE
 
 ## Demo
 
-> `python internet_tester.py`
+```console
+python internet_tester.py
+```
 
 <p align="center">
     <img src="images/internet/internet_demo.png?raw=true" alt="Example graph of internet performance results" />
 </p>
 
-> `python plot_all_internet_results.py`
+```console
+python plot_all_internet_results.py
+```
 
 <p align="center">
     <img src="images/internet-overall/internet_overall_demo.png?raw=true" alt="Example graph of the history of internet performance results" />
 </p>
 
-> `python ping_tester.py`
+```console
+python ping_tester.py
+```
 
 <p align="center">
     <img src="images/ping/ping_demo.png?raw=true" alt="Example graph of ping performance results" />
 </p>
 
-> `python plot_all_ping_results.py`
+```console
+python plot_all_ping_results.py
+```
 
 <p align="center">
     <img src="images/ping-overall/ping_overall_demo.png?raw=true" alt="Example graph of the history of ping performance results" />
